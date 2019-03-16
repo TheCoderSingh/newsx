@@ -1,0 +1,14 @@
+#categories {
+	border-bottom: 1px solid #777;
+	padding: 0.35% 0;
+}
+
+#categories a {
+	border-top: 1px solid #FFF;
+	color: teal;
+	font-family: 'Patua One', cursive;
+}
+
+#categories a:hover {
+	border-top: 1px solid;
+}
