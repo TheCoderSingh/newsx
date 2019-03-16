@@ -11,3 +11,17 @@
 	margin-left: 0 !important;
 	margin-right: 0 !important;
 }
+
+.logo p {
+	margin: 0;
+	color: #FFF;
+}
+
+.site-title {
+	font-family: 'Patua One', cursive;
+	font-size: 2em;
+}
+
+.tagline {
+	font-family: 'Lato', sans-serif;
+}

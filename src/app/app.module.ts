@@ -8,6 +8,7 @@ import { CategoriesComponent } from './components/commons/categories/categories.
 import { BreakingNewsComponent } from './components/breaking-news/breaking-news.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { NewsAreaHomeComponent } from './components/news-area-home/news-area-home.component';
+import { FooterComponent } from './components/commons/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NewsAreaHomeComponent } from './components/news-area-home/news-area-hom
     CategoriesComponent,
     BreakingNewsComponent,
     HomeComponent,
-    NewsAreaHomeComponent
+    NewsAreaHomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,11 @@
+footer {
+	background-color: teal;
+}
+
+footer p {
+	color: #FFF;
+	margin: 5px 0;
+	align-items: center;
+	font-size: 0.9em;
+	font-family: 'Roboto', sans-serif;
+}
