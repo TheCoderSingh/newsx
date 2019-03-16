@@ -1,0 +1,17 @@
+#breaking-left {
+	background-color: teal;
+	padding: 10px 15px;
+}
+
+#breaking-left span {
+	color: #FFF;
+	font-family: 'Patua One', cursive;
+}
+
+#breaking-right {
+	padding-left: 15px;
+}
+
+#breaking-box {
+	background-color: #efefef;
+}
