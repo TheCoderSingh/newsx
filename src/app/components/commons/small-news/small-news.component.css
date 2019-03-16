@@ -1,0 +1,15 @@
+.smallnews .description span {
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.smallnews .source {
+	font-family: 'Lato', sans-serif;
+	color: #666;
+	font-size: 0.8em;
+}
+
+.smallnews {
+	border-bottom: 1px solid #aaa;
+}

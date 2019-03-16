@@ -3,22 +3,10 @@
 	font-size: 2em;
 }
 
-.source {
-	font-family: 'Lato', sans-serif;
-	color: teal;
-	font-weight: bold;
-}
-
 #bignews .description span {
 	font-family: 'Roboto', sans-serif;
 	color: #666;
 	line-height: 28px;
-	font-size: 0.9em;
-}
-
-.category span {
-	color: teal;
-	font-weight: bold;
 	font-size: 0.9em;
 }
 
@@ -31,20 +19,4 @@
 	font-family: 'Roboto', sans-serif;
 	line-height: 28px;
 	font-size: 1.2em;
-}
-
-.smallnews .description span {
-	font-family: 'Roboto', sans-serif;
-	font-size: 0.9em;
-	font-weight: bold;
-}
-
-.smallnews .source {
-	font-family: 'Lato', sans-serif;
-	color: #666;
-	font-size: 0.8em;
-}
-
-.smallnews {
-	border-bottom: 1px solid #aaa;
 }

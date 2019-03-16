@@ -25,3 +25,15 @@
 .tagline {
 	font-family: 'Lato', sans-serif;
 }
+
+.source {
+	font-family: 'Lato', sans-serif;
+	color: teal;
+	font-weight: bold;
+}
+
+.category span {
+	color: teal;
+	font-weight: bold;
+	font-size: 0.9em;
+}

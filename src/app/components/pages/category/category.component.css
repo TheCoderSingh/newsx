@@ -1,0 +1,21 @@
+.newsheadincat span {
+	font-size: 2em;
+}
+
+.descincat p {
+	color: #555;
+	line-height: 30px;
+}
+
+.sourceincat .source, .sourceincat p {
+	font-family: 'Roboto', sans-serif;
+}
+
+.readmore a {
+	color: teal;
+	font-family: 'Lato', sans-serif;
+}
+
+.descincat p {
+	margin-bottom: 0;
+}
