@@ -1,75 +1,84 @@
 <div class="small-news">
 	<div class="smallnews d-flex">
-		<div class="newsimg mb-4"><img src="https://placeimg.com/100/100/any"></div>
+		<div class="newsimg align-items-center d-flex"><img src="{{ second_business?.urlToImage }}"
+				onerror="this.src='assets/images/placeholder.png'"></div>
 		<div class="smallnewsright ml-3">
 			<div class="category mb-1"><span>BUSINESS</span></div>
 			<div class="description">
-				<span>Lorem ipsum, dolor sit amet conse adipisicing
-					elit ipsum hefreg.
+				<span>{{ second_business?.title }}
 				</span>
 			</div>
-			<div class="source mt-1">BBC News</div>
+			<div class="source mt-1 mb-4">Published at: {{ second_business?.publishedAt | slice:11:19 }} |
+				{{ second_business?.publishedAt | slice:0:10 }}
+			</div>
 		</div>
 	</div>
 	<div class="smallnews d-flex mt-3">
-		<div class="newsimg mb-4"><img src="https://placeimg.com/100/100/animals"></div>
-		<div class="smallnewsright ml-3">
+		<div class="newsimg align-items-center d-flex"><img src="{{ latest_entertainment?.urlToImage }}"
+				onerror="this.src='assets/images/placeholder.png'"></div>
+		<div class=" smallnewsright ml-3">
 			<div class="category mb-1"><span>ENTERTAINMENT</span></div>
 			<div class="description">
-				<span>Lorem ipsum, dolor sit amet conse adipisicing
-					elit ipsum hefreg.
+				<span>{{ latest_entertainment?.title }}
 				</span>
 			</div>
-			<div class="source mt-1">BBC News</div>
+			<div class="source mt-1 mb-4">Published at: {{ latest_entertainment?.publishedAt | slice:11:19 }} |
+				{{ latest_entertainment?.publishedAt | slice:0:10 }}
+			</div>
 		</div>
 	</div>
 	<div class="smallnews d-flex mt-3">
-		<div class="newsimg mb-4"><img src="https://placeimg.com/100/100/architecture"></div>
+		<div class="newsimg align-items-center d-flex"><img src="{{ latest_health?.urlToImage }}"
+				onerror="this.src='assets/images/placeholder.png'"></div>
 		<div class="smallnewsright ml-3">
 			<div class="category mb-1"><span>HEALTH</span></div>
 			<div class="description">
-				<span>Lorem ipsum, dolor sit amet conse adipisicing
-					elit ipsum hefreg.
+				<span>{{ latest_health?.title }}
 				</span>
 			</div>
-			<div class="source mt-1">BBC News</div>
+			<div class="source mt-1 mb-4">Published at: {{ latest_health?.publishedAt | slice:11:19 }} |
+				{{ latest_health?.publishedAt | slice:0:10 }}
+			</div>
 		</div>
 	</div>
 	<div class="smallnews d-flex mt-3">
-		<div class="newsimg mb-4"><img src="https://placeimg.com/100/100/nature"></div>
+		<div class="newsimg align-items-center d-flex"><img src="{{ second_science?.urlToImage }}"
+				onerror="this.src='assets/images/placeholder.png'"></div>
 		<div class="smallnewsright ml-3">
 			<div class="category mb-1"><span>SCIENCE</span></div>
 			<div class="description">
-				<span>Lorem ipsum, dolor sit amet conse adipisicing
-					elit ipsum hefreg.
+				<span>{{ second_science?.title }}
 				</span>
 			</div>
-			<div class="source mt-1">BBC News</div>
+			<div class="source mt-1 mb-4">Published at: {{ second_science?.publishedAt | slice:11:19 }} |
+				{{ second_science?.publishedAt | slice:0:10 }}
+			</div>
 		</div>
 	</div>
 	<div class="smallnews d-flex mt-3">
-		<div class="newsimg mb-4"><img src="https://placeimg.com/100/100/people"></div>
+		<div class="newsimg align-items-center d-flex"><img src="{{ second_sports?.urlToImage }}"
+				onerror="this.src='assets/images/placeholder.png'"></div>
 		<div class="smallnewsright ml-3">
 			<div class="category mb-1"><span>SPORTS</span></div>
 			<div class="description">
-				<span>Lorem ipsum, dolor sit amet conse adipisicing
-					elit ipsum hefreg.
-				</span>
+				<span>{{ second_sports?.title }}</span>
 			</div>
-			<div class="source mt-1">BBC News</div>
+			<div class="source mt-1 mb-4">Published at: {{ second_sports?.publishedAt | slice:11:19 }} |
+				{{ second_sports?.publishedAt | slice:0:10 }}
+			</div>
 		</div>
 	</div>
 	<div class="smallnews d-flex mt-3 border-0">
-		<div class="newsimg mb-4"><img src="https://placeimg.com/100/100/tech"></div>
+		<div class="newsimg align-items-center d-flex"><img src="{{ latest_technology?.urlToImage }}"
+				onerror="this.src='assets/images/placeholder.png'"></div>
 		<div class="smallnewsright ml-3">
 			<div class="category mb-1"><span>TECHNOLOGY</span></div>
 			<div class="description">
-				<span>Lorem ipsum, dolor sit amet conse adipisicing
-					elit ipsum hefreg.
-				</span>
+				<span>{{ latest_technology?.title }}</span>
 			</div>
-			<div class="source mt-1">BBC News</div>
+			<div class="source mt-1 mb-4">Published at: {{ latest_technology?.publishedAt | slice:11:19 }} |
+				{{ latest_technology?.publishedAt | slice:0:10 }}
+			</div>
 		</div>
 	</div>
-
 </div>

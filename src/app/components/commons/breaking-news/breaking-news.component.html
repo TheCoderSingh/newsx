@@ -7,8 +7,17 @@
 						<span>BREAKING NEWS</span>
 					</div>
 					<div id="breaking-right">
-						<span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit eum commodi ad illum omnis,
-							amet necessitatibus dolor harum ipsam.</span>
+						<span [ngSwitch]="catid">
+							<span *ngSwitchCase=1>
+								{{ latest_business?.title }}
+							</span>
+							<span *ngSwitchCase=2>
+								{{ latest_sports?.title }}
+							</span>
+							<span *ngSwitchCase=3>
+								{{ latest_science?.title }}
+							</span>
+						</span>
 					</div>
 				</div>
 			</div>

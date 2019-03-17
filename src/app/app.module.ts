@@ -12,6 +12,8 @@ import { FooterComponent } from './components/commons/footer/footer.component';
 import { CategoryComponent } from './components/pages/category/category.component';
 import { SmallNewsComponent } from './components/commons/small-news/small-news.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
 	declarations: [
 		AppComponent,
@@ -26,7 +28,8 @@ import { SmallNewsComponent } from './components/commons/small-news/small-news.c
 	],
 	imports: [
 		BrowserModule,
-		AppRoutingModule
+		AppRoutingModule,
+		HttpClientModule
 	],
 	providers: [],
 	bootstrap: [AppComponent]

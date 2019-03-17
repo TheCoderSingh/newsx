@@ -20,3 +20,13 @@
 	line-height: 28px;
 	font-size: 1.2em;
 }
+
+#bigimg {
+	width: 400px;
+	height: 350px;
+}
+
+.midimg {
+	width: 250px;
+	height: 200px;
+}

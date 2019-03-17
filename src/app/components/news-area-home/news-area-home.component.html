@@ -3,44 +3,34 @@
 		<div class="row">
 			<div class="col-md-5">
 				<div id="bignews">
-					<div class="newsimg mb-4"><img src="https://placeimg.com/400/350/any"></div>
+					<div class="newsimg mb-4"><img src="{{ latest_business?.urlToImage }}" id="bigimg"
+							onerror="this.src='assets/images/placeholder.png'"></div>
 					<div class="category mb-1"><span>BUSINESS</span></div>
-					<div class="newshead"><span>Financial news: A new company is born today at the stock market</span>
+					<div class="newshead"><span>{{ latest_business?.title }}</span>
 					</div>
-					<div class="source mb-3 mt-3">BBC News</div>
+					<div class="source mb-3 mt-3">{{ latest_business?.source["name"] }}</div>
 					<div class="description text-justify">
-						<span>Lorem ipsum, dolor sit amet consectetur adipisicing
-							elit.
-							Temporibus, odit
-							hic
-							nulla consequuntur laboriosam iure sed dolore? Sunt eaque iusto est illum enim rerum itaque
-							provident? Reiciendis nostrum placeat officia.
+						<span>{{ latest_business?.description }}
 						</span>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="midnews">
-					<div class="newsimg mb-4"><img src="https://placeimg.com/250/200/tech"></div>
-					<div class="category mb-1"><span>BUSINESS</span></div>
+					<div class="newsimg mb-4"><img src="{{ latest_science?.urlToImage }}" class="midimg"
+							onerror="this.src='assets/images/placeholder.png'"></div>
+					<div class="category mb-1"><span>SCIENCE</span></div>
 					<div class="description text-justify">
-						<span>Lorem ipsum, dolor sit amet consectetur adipisicing
-							elit.
-							Temporibus, odit
-							hic
-							nulla consequuntur...
+						<span>{{ latest_science?.title }}
 						</span>
 					</div>
 				</div>
 				<div class="midnews mt-5">
-					<div class="newsimg mb-4"><img src="https://placeimg.com/250/200/any"></div>
-					<div class="category mb-1"><span>BUSINESS</span></div>
+					<div class="newsimg mb-4"><img src="{{ latest_sports?.urlToImage }}" class="midimg"
+							onerror="this.src='assets/images/placeholder.png'"></div>
+					<div class="category mb-1"><span>SPORTS</span></div>
 					<div class="description text-justify">
-						<span>Lorem ipsum, dolor sit amet consectetur adipisicing
-							elit.
-							Temporibus, odit
-							hic
-							nulla consequuntur...
+						<span>{{ latest_sports?.title }}
 						</span>
 					</div>
 				</div>
