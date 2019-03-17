@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1552850280530,
+  "timestamp": 1552850841261,
   "index": "https://thecodersingh.github.io/newsx/index.html",
   "assetGroups": [
     {
@@ -11,7 +11,7 @@
         "https://thecodersingh.github.io/newsx/es2015-polyfills.c5dd28b362270c767b34.js",
         "https://thecodersingh.github.io/newsx/favicon.ico",
         "https://thecodersingh.github.io/newsx/index.html",
-        "https://thecodersingh.github.io/newsx/main.037970bb662639d94bb1.js",
+        "https://thecodersingh.github.io/newsx/main.5172a831b3e3780eafef.js",
         "https://thecodersingh.github.io/newsx/polyfills.8bbb231b43165d65d357.js",
         "https://thecodersingh.github.io/newsx/runtime.26209474bfa8dc87a77c.js",
         "https://thecodersingh.github.io/newsx/styles.810cd3b79815a5cae13b.css"
@@ -49,8 +49,8 @@
     "https://thecodersingh.github.io/newsx/assets/images/placeholder.png": "3dffb6e1afb9c7469a68482c46228a119383a8e1",
     "https://thecodersingh.github.io/newsx/es2015-polyfills.c5dd28b362270c767b34.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
     "https://thecodersingh.github.io/newsx/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://thecodersingh.github.io/newsx/index.html": "e2fd292ef4a5d6ccf15f655eed27225b793a31e7",
-    "https://thecodersingh.github.io/newsx/main.037970bb662639d94bb1.js": "89bb46db798f2d2805d6b548bf9b06456d7eca34",
+    "https://thecodersingh.github.io/newsx/index.html": "a729384e9abe5801073a4432e2e192bad9ea4015",
+    "https://thecodersingh.github.io/newsx/main.5172a831b3e3780eafef.js": "9c804d3ae050e5e76715f51e06c2e47bfd28bb7e",
     "https://thecodersingh.github.io/newsx/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "https://thecodersingh.github.io/newsx/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "https://thecodersingh.github.io/newsx/styles.810cd3b79815a5cae13b.css": "e093efa226485707f9e54febb9b155af4f159551"
