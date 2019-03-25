@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
-				<div class="cat-news">
+				<!-- <div class="cat-news">
 					<img src="https://placeimg.com/715/350/tech">
 					<div class="category mt-4">
 						<span>
@@ -30,8 +30,8 @@
 					<div class="readmore">
 						<a href="#">Read More...</a>
 					</div>
-				</div>
-				<div class="cat-news mt-5">
+				</div> -->
+				<!-- <div class="cat-news mt-5">
 					<img src="https://placeimg.com/715/350/animals">
 					<div class="category mt-4">
 						<span>
@@ -113,6 +113,28 @@
 							elit. Cumque labore doloremque alias est. Error dolor consectetur amet enim. Commodi ab
 							placeat
 							iusto magni eius sunt! Praesentium explicabo tempore numquam sit.</p>
+					</div>
+					<div class="readmore">
+						<a href="#">Read More...</a>
+					</div>
+				</div> -->
+				<div class="cat-news mb-5" *ngFor="let one_news of latest_news">
+					<img src="{{ one_news.urlToImage }}" class="img-fluid">
+					<div class="category mt-4">
+						<span>
+							{{ category | uppercase }}
+						</span>
+					</div>
+					<div class="newsheadincat">
+						<span>{{ one_news.title }}</span>
+					</div>
+					<div class="sourceincat mt-3">
+						<p>Source:
+							<span class="source">{{ one_news.source["name"] }}</span>
+						</p>
+					</div>
+					<div class="descincat mt-3">
+						<p>{{ one_news.content }}</p>
 					</div>
 					<div class="readmore">
 						<a href="#">Read More...</a>

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NewsService } from 'src/app/services/news.service';
 import { News } from 'src/app/models/news';
+import { interval } from 'rxjs';
 
 @Component({
 	selector: 'app-small-news',
@@ -72,5 +73,58 @@ export class SmallNewsComponent implements OnInit {
 				(err: any) => console.log(err),
 				() => console.log('All done getting news.')
 			);
+
+		interval(1000 * 60).subscribe(x => {
+			this.newsservice.getHeadlinesByCatAndCountry("business", "IN")
+				.subscribe(
+					(data: News[]) => {
+						this.latest_business = data["articles"][0];
+						this.second_business = data["articles"][1];
+					},
+					(err: any) => console.log(err),
+					() => console.log('All done getting news.')
+				);
+
+			this.newsservice.getHeadlinesByCatAndCountry("science", "IN")
+				.subscribe(
+					(data: News[]) => {
+						this.latest_science = data["articles"][0];
+						this.second_science = data["articles"][1];
+					},
+					(err: any) => console.log(err),
+					() => console.log('All done getting news.')
+				);
+
+			this.newsservice.getHeadlinesByCatAndCountry("sports", "IN")
+				.subscribe(
+					(data: News[]) => {
+						this.latest_sports = data["articles"][0];
+						this.second_sports = data["articles"][1];
+					},
+					(err: any) => console.log(err),
+					() => console.log('All done getting news.')
+				);
+
+			this.newsservice.getHeadlinesByCatAndCountry("entertainment", "IN")
+				.subscribe(
+					(data: News[]) => this.latest_entertainment = data["articles"][0],
+					(err: any) => console.log(err),
+					() => console.log('All done getting news.')
+				);
+
+			this.newsservice.getHeadlinesByCatAndCountry("health", "IN")
+				.subscribe(
+					(data: News[]) => this.latest_health = data["articles"][0],
+					(err: any) => console.log(err),
+					() => console.log('All done getting news.')
+				);
+
+			this.newsservice.getHeadlinesByCatAndCountry("technology", "IN")
+				.subscribe(
+					(data: News[]) => this.latest_technology = data["articles"][0],
+					(err: any) => console.log(err),
+					() => console.log('All done getting news.')
+				);
+		});
 	}
 }

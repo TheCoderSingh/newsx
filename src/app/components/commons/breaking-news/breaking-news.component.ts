@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NewsService } from 'src/app/services/news.service';
 import { News } from 'src/app/models/news';
+import { interval } from 'rxjs';
 
 @Component({
 	selector: 'app-breaking-news',
@@ -39,6 +40,29 @@ export class BreakingNewsComponent implements OnInit {
 			);
 
 		setInterval(() => this.changeCatId(), 2500);
+
+		interval(1000 * 60).subscribe(x => {
+			this.newsservice.getHeadlinesByCatAndCountry("business", "IN")
+				.subscribe(
+					(data: News[]) => this.latest_business = data["articles"][0],
+					(err: any) => console.log(err),
+					() => console.log('All done getting news.')
+				);
+
+			this.newsservice.getHeadlinesByCatAndCountry("science", "IN")
+				.subscribe(
+					(data: News[]) => this.latest_science = data["articles"][0],
+					(err: any) => console.log(err),
+					() => console.log('All done getting news.')
+				);
+
+			this.newsservice.getHeadlinesByCatAndCountry("sports", "IN")
+				.subscribe(
+					(data: News[]) => this.latest_sports = data["articles"][0],
+					(err: any) => console.log(err),
+					() => console.log('All done getting news.')
+				);
+		});
 	}
 
 	changeCatId() {
