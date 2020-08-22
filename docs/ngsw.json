@@ -1,0 +1,112 @@
+{
+  "configVersion": 1,
+  "timestamp": 1598080326234,
+  "index": "/newsx/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/newsx/es2015-polyfills.1e04665e16f944715fd2.js",
+        "/newsx/favicon.ico",
+        "/newsx/index.html",
+        "/newsx/main.0352eb93959d3bb0f07f.js",
+        "/newsx/polyfills.8bbb231b43165d65d357.js",
+        "/newsx/runtime.26209474bfa8dc87a77c.js",
+        "/newsx/styles.c43d9148f38625d91dc1.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/newsx/assets/icons/android-icon-144x144.png",
+        "/newsx/assets/icons/android-icon-192x192.png",
+        "/newsx/assets/icons/android-icon-36x36.png",
+        "/newsx/assets/icons/android-icon-48x48.png",
+        "/newsx/assets/icons/android-icon-72x72.png",
+        "/newsx/assets/icons/android-icon-96x96.png",
+        "/newsx/assets/icons/apple-icon-114x114.png",
+        "/newsx/assets/icons/apple-icon-120x120.png",
+        "/newsx/assets/icons/apple-icon-144x144.png",
+        "/newsx/assets/icons/apple-icon-152x152.png",
+        "/newsx/assets/icons/apple-icon-180x180.png",
+        "/newsx/assets/icons/apple-icon-57x57.png",
+        "/newsx/assets/icons/apple-icon-60x60.png",
+        "/newsx/assets/icons/apple-icon-72x72.png",
+        "/newsx/assets/icons/apple-icon-76x76.png",
+        "/newsx/assets/icons/apple-icon-precomposed.png",
+        "/newsx/assets/icons/apple-icon.png",
+        "/newsx/assets/icons/browserconfig.xml",
+        "/newsx/assets/icons/favicon-16x16.png",
+        "/newsx/assets/icons/favicon-32x32.png",
+        "/newsx/assets/icons/favicon-96x96.png",
+        "/newsx/assets/icons/favicon.ico",
+        "/newsx/assets/icons/ms-icon-144x144.png",
+        "/newsx/assets/icons/ms-icon-150x150.png",
+        "/newsx/assets/icons/ms-icon-310x310.png",
+        "/newsx/assets/icons/ms-icon-70x70.png",
+        "/newsx/assets/images/placeholder.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/newsx/assets/icons/android-icon-144x144.png": "1255534c3cbebb437e6b38fe2e8cd7fb83f1552b",
+    "/newsx/assets/icons/android-icon-192x192.png": "972293ffe05608262a3c4697f94933ef23f8c6e1",
+    "/newsx/assets/icons/android-icon-36x36.png": "7150d93d9dda200b6da12ac719065eb2320dd8ae",
+    "/newsx/assets/icons/android-icon-48x48.png": "9bf4de78a754bd4375bf448caf6f398c4645785d",
+    "/newsx/assets/icons/android-icon-72x72.png": "13c22a4e4e9ee1cff13188485985336c1faae81b",
+    "/newsx/assets/icons/android-icon-96x96.png": "d45f439492c9dcca7e983c9b2eea125fa614a2dc",
+    "/newsx/assets/icons/apple-icon-114x114.png": "7a15653c8be186fc9786d80e1937bdf8fe2a80ce",
+    "/newsx/assets/icons/apple-icon-120x120.png": "b3204075c01849fc9ef4b57288e61c87d0d50a83",
+    "/newsx/assets/icons/apple-icon-144x144.png": "1255534c3cbebb437e6b38fe2e8cd7fb83f1552b",
+    "/newsx/assets/icons/apple-icon-152x152.png": "da341f88499d246d7bea098427c9764eb90f8e8b",
+    "/newsx/assets/icons/apple-icon-180x180.png": "3a5cbd31a30ec6546f005087295a02ec4e8e0372",
+    "/newsx/assets/icons/apple-icon-57x57.png": "0092691bf457f3d63d7cfca1c606255de43fbecb",
+    "/newsx/assets/icons/apple-icon-60x60.png": "c3d112547577b458058581e496df76cdaf1bdd20",
+    "/newsx/assets/icons/apple-icon-72x72.png": "13c22a4e4e9ee1cff13188485985336c1faae81b",
+    "/newsx/assets/icons/apple-icon-76x76.png": "d862a33cd834543b5aac84299af2b94a6958b9da",
+    "/newsx/assets/icons/apple-icon-precomposed.png": "012ced7323be1ef4797789c15e61e09743f03449",
+    "/newsx/assets/icons/apple-icon.png": "012ced7323be1ef4797789c15e61e09743f03449",
+    "/newsx/assets/icons/browserconfig.xml": "ce58ec7b540ac612622639f316e24560cc002778",
+    "/newsx/assets/icons/favicon-16x16.png": "47ec92c3f8315b5edfdedfc69e7c1aea20579a12",
+    "/newsx/assets/icons/favicon-32x32.png": "3ec3fa5217f4a4b938f1ac3b1803cb36b40c1a12",
+    "/newsx/assets/icons/favicon-96x96.png": "d45f439492c9dcca7e983c9b2eea125fa614a2dc",
+    "/newsx/assets/icons/favicon.ico": "dbd11dbbb4432fbba7a245494920cc21ba888505",
+    "/newsx/assets/icons/ms-icon-144x144.png": "1255534c3cbebb437e6b38fe2e8cd7fb83f1552b",
+    "/newsx/assets/icons/ms-icon-150x150.png": "4d6295358dfdd0b8ec5450d43a61d1074c57a423",
+    "/newsx/assets/icons/ms-icon-310x310.png": "a7228d073111cd6fccd771430e0383803f37bfa0",
+    "/newsx/assets/icons/ms-icon-70x70.png": "4eddefa4fea247f2ddc83875c3cd34b65aa82423",
+    "/newsx/assets/images/placeholder.png": "3dffb6e1afb9c7469a68482c46228a119383a8e1",
+    "/newsx/es2015-polyfills.1e04665e16f944715fd2.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
+    "/newsx/favicon.ico": "513dfa530902c20ea75eeaaab444459636ef2736",
+    "/newsx/index.html": "5d96abd7954f2223a7625ef04c64ad9398f7a4ef",
+    "/newsx/main.0352eb93959d3bb0f07f.js": "48741f76ac421d234685f29f82b943992a5fec38",
+    "/newsx/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
+    "/newsx/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/newsx/styles.c43d9148f38625d91dc1.css": "a7511c9f54af658d3e46e38cb2320f82e4be5212"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
