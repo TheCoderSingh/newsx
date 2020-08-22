@@ -18,21 +18,21 @@ export class BreakingNewsComponent implements OnInit {
 	constructor(private newsservice: NewsService) { }
 
 	ngOnInit() {
-		this.newsservice.getHeadlinesByCatAndCountry("business", "IN")
+		this.newsservice.getHeadlinesByCatAndCountry("business", "CA")
 			.subscribe(
 				(data: News[]) => this.latest_business = data["articles"][0],
 				(err: any) => console.log(err),
 				() => console.log('All done getting news.')
 			);
 
-		this.newsservice.getHeadlinesByCatAndCountry("science", "IN")
+		this.newsservice.getHeadlinesByCatAndCountry("science", "CA")
 			.subscribe(
 				(data: News[]) => this.latest_science = data["articles"][0],
 				(err: any) => console.log(err),
 				() => console.log('All done getting news.')
 			);
 
-		this.newsservice.getHeadlinesByCatAndCountry("sports", "IN")
+		this.newsservice.getHeadlinesByCatAndCountry("sports", "CA")
 			.subscribe(
 				(data: News[]) => this.latest_sports = data["articles"][0],
 				(err: any) => console.log(err),
@@ -42,21 +42,21 @@ export class BreakingNewsComponent implements OnInit {
 		setInterval(() => this.changeCatId(), 2500);
 
 		interval(1000 * 60).subscribe(x => {
-			this.newsservice.getHeadlinesByCatAndCountry("business", "IN")
+			this.newsservice.getHeadlinesByCatAndCountry("business", "CA")
 				.subscribe(
 					(data: News[]) => this.latest_business = data["articles"][0],
 					(err: any) => console.log(err),
 					() => console.log('All done getting news.')
 				);
 
-			this.newsservice.getHeadlinesByCatAndCountry("science", "IN")
+			this.newsservice.getHeadlinesByCatAndCountry("science", "CA")
 				.subscribe(
 					(data: News[]) => this.latest_science = data["articles"][0],
 					(err: any) => console.log(err),
 					() => console.log('All done getting news.')
 				);
 
-			this.newsservice.getHeadlinesByCatAndCountry("sports", "IN")
+			this.newsservice.getHeadlinesByCatAndCountry("sports", "CA")
 				.subscribe(
 					(data: News[]) => this.latest_sports = data["articles"][0],
 					(err: any) => console.log(err),

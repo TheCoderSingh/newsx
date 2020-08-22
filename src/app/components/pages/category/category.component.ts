@@ -20,7 +20,7 @@ export class CategoryComponent implements OnInit {
 		this.route.params.subscribe(params => {
 			this.category = params.category;
 
-			this.newsservice.getHeadlinesByCatAndCountry(this.category, "IN")
+			this.newsservice.getHeadlinesByCatAndCountry(this.category, "CA")
 				.subscribe(
 					(data: News[]) => this.latest_news = data["articles"],
 					(err: any) => console.log(err),
